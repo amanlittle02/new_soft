@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <link rel="stylesheet" href="style1.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+<!-- THIS DIV1 CONTAIN THE NAV BAR CODE FOR YOUTUBE.HTML FILE-->
+
+
+<div id="div1">
+<nav class="navbar navbar-inverse"  id="nav1" >
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#"><b>UNRAVEL</b></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">PLAYLIST</a></li>
+        <li><a href="#">PROJECTS</a></li> 
+        <li><a href="#">BOOKS</a></li> 
+      </ul>
+	  
+	  
+	  
+	  <form class="navbar-form navbar-left">
+  <div class="input-group">
+    <input type="text" class="form-control" placeholder="Search" size="60" >
+    <div class="input-group-btn">
+      <button class="btn btn-default" type="submit">
+        <i class="glyphicon glyphicon-search"></i>
+      </button>
+    </div>
+  </div>
+</form>
+	  
+	  
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end of navbar code for youtube.html-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--this division contain youtube player and playlist code--> 
+<div class="div2"> 
+<div class ="container-fluid">
+<div class="row">
+<div class="col-lg-12 col-sm-4"> 
+
+ <div class="vid-main-wrapper clearfix">
+
+  		    <!-- THE YOUTUBE PLAYER CODE CONTAINING THE MEDIA PLAYER -->
+      <div class="vid-container">
+          <iframe id="vid_frame" src="https://www.youtube.com/embed/cOSEOYi9JS4?rel=0&showinfo=0&autohide=1"  allowfullscreen frameborder="100" width="560" height="460"></iframe>
+		
+           </div>
+
+      <!-- THE PLAYLIST -THIS CODE IS MAKING THE VERTICAL PLAYLIST OF VIDEOS ASSOCIATED WITH THE PLAYER -->
+      <div class="vid-list-container">
+            <ol id="vid-list">
+			<li>
+                <a href="javascript:void();" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/cOSEOYi9JS4?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <span class="vid-thumb"><img width=72 src="https://img.youtube.com/vi/cOSEOYi9JS4/default.jpg" /></span>
+                  <div class="desc">WeatherBeater™ Product Video</div>
+                </a>
+              </li>
+			  <li>
+                <a href="javascript:void();" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/cOSEOYi9JS4?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <span class="vid-thumb"><img width=72 src="https://img.youtube.com/vi/cOSEOYi9JS4/default.jpg" /></span>
+                  <div class="desc">WeatherBeater™ Product Video</div>
+                </a>
+              </li>
+			  <li>
+                <a href="javascript:void();" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/cOSEOYi9JS4?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <span class="vid-thumb"><img width=72 src="https://img.youtube.com/vi/cOSEOYi9JS4/default.jpg" /></span>
+                  <div class="desc">WeatherBeater™ Product Video</div>
+                </a>
+              </li>
+			  <li>
+                <a href="javascript:void();" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/cOSEOYi9JS4?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <span class="vid-thumb"><img width=72 src="https://img.youtube.com/vi/cOSEOYi9JS4/default.jpg" /></span>
+                  <div class="desc">WeatherBeater™ Product Video</div>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void();" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/cOSEOYi9JS4?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <span class="vid-thumb"><img width=72 src="https://img.youtube.com/vi/cOSEOYi9JS4/default.jpg" /></span>
+                  <div class="desc">WeatherBeater™ Product Video</div>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void();" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/9P7mEf4bilg?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <span class="vid-thumb"><img width=72 src="https://img.youtube.com/vi/9P7mEf4bilg/default.jpg" /></span>
+                  <div class="desc">X-act Contour® Product Video</div>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void();" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/KHxNpXovl58?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <span class="vid-thumb"><img width=72 src="https://img.youtube.com/vi/KHxNpXovl58/default.jpg" /></span>
+                  <div class="desc">GearBox® Product Video</div>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void();" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/D_a2UBGsePQ?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <span class="vid-thumb"><img width=72 src="https://img.youtube.com/vi/D_a2UBGsePQ/default.jpg" /></span>
+                  <div class="desc">Mud Guards Product Video</div>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void();" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/vYoh2IgoBXg?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <span class="vid-thumb"><img width=72 src="https://img.youtube.com/vi/vYoh2IgoBXg/default.jpg" /></span>
+                  <div class="desc">Wheel Well Guards Product Video</div>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void();" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/RTHI_uGyfTM?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <span class="vid-thumb"><img width=72 src="https://img.youtube.com/vi/RTHI_uGyfTM/default.jpg" /></span>
+                  <div class="desc">Cargo Liner Product Video</div>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void();" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/EvTjAjLNphE?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <span class="vid-thumb"><img width=72 src="https://img.youtube.com/vi/EvTjAjLNphE/default.jpg" /></span>
+                  <div class="desc">Husky Liners Products</div>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void();" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/-Qpc79oaJQg?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <span class="vid-thumb"><img width=72 src="https://img.youtube.com/vi/-Qpc79oaJQg/default.jpg" /></span>
+                  <div class="desc">Custom Molded Mud Guards</div>
+                </a>
+              </li>
+              
+            </ul>
+       </div>
+
+  	
+</div>
+
+ </div>
+ </div>
+ </div>
+ </div>
+ 
+ 
+ <!--end of player and playlist part--> 
+ 
+ 
+  
+  
+  
+  
+  <!-- Vertical playlist code -->
+  
+  <div id="div3">
+  <div class="container-fluid">
+  <div class="row">
+  <div class="col-lg-8">  <div class="detailBox">
+    <div class="titleBox">
+      <label>Discussion Box</label>
+        <button type="button" class="close" aria-hidden="true">&times;</button>
+    </div>
+
+    <div class="actionBox">
+        <ul class="commentList">
+            <li>
+                <div class="commenterImage">
+                  <img src="http://placekitten.com/50/50" />
+                </div>
+                <div class="commentText">
+                    <p class="">Hello this is a test comment.</p> <span class="date sub-text">on March 5th, 2014</span>
+
+                </div>
+            </li>
+            <li>
+                <div class="commenterImage">
+                  <img src="http://placekitten.com/45/45" />
+                </div>
+                <div class="commentText">
+                    <p class="">Hello this is a test comment and this comment is particularly very long and it goes on and on and on.</p> <span class="date sub-text">on March 5th, 2014</span>
+
+                </div>
+            </li>
+            <li>
+                <div class="commenterImage">
+                  <img src="http://placekitten.com/40/40" />
+                </div>
+                <div class="commentText">
+                    <p class="">Hello this is a test comment.</p> <span class="date sub-text">on March 5th, 2014</span>
+
+                </div>
+            </li>
+        </ul>
+        <form class="form-inline" role="form">
+            <div class="form-group">
+                <input class="form-control" type="text" placeholder="Your comments" />
+            </div>
+            <div class="form-group">
+                <button class="btn btn-default">Add</button>
+            </div>
+        </form>
+    </div>
+</div></div>
+  <div class="col-lg-4 " >
+  
+  <div class="vid-list">
+	         	
+ 	            <div class="vid-item" onClick="document.getElementById('vid_frame').src='http://youtube.com/embed/eg6kNoJmzkY?autoplay=1&rel=0&showinfo=0&autohide=1'">
+ 	              <div class="thumb"><img src="http://img.youtube.com/vi/eg6kNoJmzkY/0.jpg" class="img-rounded" alt="Cinque Terre" width="250" height="150"></div>
+ 	              <div class="desc">Jessica Hernandez & the Deltas - Dead Brains</div>
+ 	            </div>
+ 	          
+ 	            <div class="vid-item" onClick="document.getElementById('vid_frame').src='http://youtube.com/embed/_Tz7KROhuAw?autoplay=1&rel=0&showinfo=0&autohide=1'">
+ 	              <div class="thumb"><img src="http://img.youtube.com/vi/_Tz7KROhuAw/0.jpg"  class="img-rounded" alt="Cinque Terre" width="250" height="150"></div>
+ 	              <div class="desc">Barbatuques - CD Tum P&aacute; - Sambalel&ecirc;</div>
+ 	            </div>
+
+ 	            <div class="vid-item" onClick="document.getElementById('vid_frame').src='http://youtube.com/embed/F1f-gn_mG8M?autoplay=1&rel=0&showinfo=0&autohide=1'">
+ 	              <div class="thumb"><img src="http://img.youtube.com/vi/F1f-gn_mG8M/0.jpg" class="img-rounded" alt="Cinque Terre" width="250" height="150"></div>
+ 	              <div class="desc">Eleanor Turner plays Baroque Flamenco</div>
+ 	            </div>
+
+ 	            <div class="vid-item" onClick="document.getElementById('vid_frame').src='http://youtube.com/embed/fB8UTheTR7s?autoplay=1&rel=0&showinfo=0&autohide=1'">
+ 	              <div class="thumb"><img src="http://img.youtube.com/vi/fB8UTheTR7s/0.jpg"  class="img-rounded" alt="Cinque Terre" width="250" height="150"></div>
+ 	              <div class="desc">Sleepy Man Banjo Boys: Bluegrass</div>
+ 	            </div>
+
+ 	            <div class="vid-item" onClick="document.getElementById('vid_frame').src='http://youtube.com/embed/0SNhAKyXtC8?autoplay=1&rel=0&showinfo=0&autohide=1'">
+ 	              <div class="thumb"><img src="http://img.youtube.com/vi/0SNhAKyXtC8/0.jpg"  class="img-rounded" alt="Cinque Terre" width="250" height="150"></div>
+ 	              <div class="desc">Edmar Castaneda: NPR Music Tiny Desk Concert</div>
+ 	            </div>
+
+ 	            <div class="vid-item" onClick="document.getElementById('vid_frame').src='http://youtube.com/embed/RTHI_uGyfTM?autoplay=1&rel=0&showinfo=0&autohide=1'">
+ 	              <div class="thumb"><img src="http://img.youtube.com/vi/RTHI_uGyfTM/0.jpg" width="250" height="150"></div>
+ 	              <div class="desc">Winter Harp performs Caravan</div>
+ 	            </div>
+ 	          
+ 	            <div class="vid-item" onClick="document.getElementById('vid_frame').src='http://youtube.com/embed/abQRt6p8T7g?autoplay=1&rel=0&showinfo=0&autohide=1'">
+ 	              <div class="thumb"><img src="http://img.youtube.com/vi/abQRt6p8T7g/0.jpg"  class="img-rounded" alt="Cinque Terre" width="250" height="150"></div>
+ 	              <div class="desc">The Avett Brothers Tiny Desk Concert</div>
+ 	            </div>
+
+ 	            <div class="vid-item" onClick="document.getElementById('vid_frame').src='http://youtube.com/embed/fpmN9JorFew?autoplay=1&rel=0&showinfo=0&autohide=1'">
+ 	              <div class="thumb"><img src="http://img.youtube.com/vi/fpmN9JorFew/0.jpg"  class="img-rounded" alt="Cinque Terre" width="250" height="150"></div>
+ 	              <div class="desc">Tracy Chapman - Give Me One Reason</div>
+ 	            </div>
+
+	 	
+  
+  
+  </div>
+  </div>
+  </div>
+  </div>
+   </div>
+   
+   
+   
+   
+   
+   
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script>
+  
+
+
+  /*JS FOR SCROLLING THE ROW OF THUMBNAILS*/ 
+$(document).ready(function () {
+  $('.vid-item').each(function(index){
+    $(this).on('click', function(){
+      var current_index = index+1;
+      $('.vid-item .thumb').removeClass('active');
+      $('.vid-item:nth-child('+current_index+') .thumb').addClass('active');
+    });
+  });
+});
+  
+
+
+  
+  
+  
+  /* 
+ var queryString = decodeURIComponent(window.location.search);
+queryString = queryString.substring(1);
+var queries = queryString.split("&");
+for (var i = 0; i < queries.length; i++)
+{
+  document.write(queries[i] + "<br>");
+}*/
+  </script>
+  
+</body>
+</html>
+  
+  
+  
+  
+  
+ 
+  
+  
+  
+
